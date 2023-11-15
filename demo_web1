@@ -1,1 +1,79 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=" -->
+        <title>Document</title>
+        <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+        <link rel="stylesheet" href="./assets/css/css/bootstrap.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>  
+        <div id="header">
+          <!--Thanh tìm kiếm-->
+          <nav class="navbar navbar-expand-lg navbar-light navbar-custom-hust border-bottom " style="color: aliceblue;">
+            <div class="container">
+              <div class="col-3"></div>
+              <form class="d-flex col-6">
+                <input class="form-control me-2 " type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+              </form>
+              <div class="col-3">
+                <button type="button" class="btn btn-light btn-outline-success circle" style="margin-left: 25px;">
+                  <img src="./assets/img/logo/notification.png" class="rounded-circle" style="width:25px">
+                </button>
+              </div>
+            </div>
+          </nav>
+          <!--Thanh điều hướng-->
+          <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
+            <div class="container">
+              <a class="navbar-brand" href="javascript:void(0)">Hust Gaming</a>
+              <a class="navbar-brand" href="#" >
+                <img src="./assets/img/logo/shopping-cart.png" alt="Giỏ hàng" style="width:40px; position: absolute; right: 160px; top: 10px" > 
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Game Mới</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Game Hot</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Thể loại</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Coop</a></li>
+                      <li><a class="dropdown-item" href="#">Fps</a></li>
+                      <li><a class="dropdown-item" href="#">Thế giới mở</a></li>
+                      <li><a class="dropdown-item" href="#">Online</a></li>
+                      <li><a class="dropdown-item" href="#">Đối kháng</a></li>
+                      <li><a class="dropdown-item" href="#">Kinh dị</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <button type="button" class="btn btn-light btn-outline-success circle" style="margin-left: 25px;">
+                  <img src="./assets/img/logo/login.png" class="rounded-circle" style="width:25px;">
+                  
+                </button>
+              </div>
+            </div>
+          </nav>
+              <!--Hết thanh điều hướng-->
+        </div>
+        <script src="./assets/js/js/bootstrap.js"></script>
+        <!--banner-->
+        <div class="container">
+          <div class="row mt-5">
+            <div class="col-12">
+              <div class="card">
+                <img src="./assets/img/logo/banner.jpg" alt="banner">
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
