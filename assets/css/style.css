@@ -1,0 +1,80 @@
+* {
+    font-family: bold 1em Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url('/assets/img/banner/Cyperpunk2077.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.content .container {
+    background-color: lightgray;
+}
+.navbar-custom-hust {
+    font-size: 20px;
+    color: #E7EDE4;
+    background-color: gray;
+}
+.navbar-hustgaming .navbar-brand {
+    color: black;
+}
+.navbar-hustgaming .navbar-brand:hover {
+    color: yellow;
+}
+.navbar-hustgaming .navbar-tag-gaming {
+    color: white;
+}
+.navbar-hustgaming .navbar-tag-gaming:hover {
+    color: yellow;
+}   
+#slider .container{
+    height: 700px;
+    width: 80%;
+    background: url('/assets/img/banner/COD.jpg') top center / cover no-repeat ;
+    background-size: contain;
+}
+#slider .game-name {
+    position: relative;
+    color: white;
+    font-size: 64px;
+    top: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#slider .game-type {
+        position: relative;
+        color: white;
+        font-size: 20px;
+        top: 500px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#new-game .home-game-detail-1 {
+    height: 200px;
+    width: 100%;
+    background: url('/assets/img/game/BG3.jpg') top center / cover no-repeat;
+}
+#new-game .home-game-name {
+    font-size: 24px;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration-line: none;
+}
+#new-game .home-game-name:hover {
+    color:gray;
+    cursor: pointer;
+}
+.name-list-game {
+    font-size: 24px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+.home-game-pre-price {
+    text-decoration-line:line-through;
+    color: gray;
+    width: 100px;
+}
+.home-game-current-price {
+    width: 100px;
+    color: black;
+}
